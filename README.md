@@ -28,6 +28,7 @@ yarn add react-native-underline-tabbar
 | Property | Type | Default | Description |
 |-----------|---------------------|----------|--------------------------------------------|
 | `tabs`       | ```{ label: string, badge:string, badgeColor?: string, [string]: any}[]``` | `required` | You don't have to pass this prop directly to tabbar. Istead, it's automatically passed from `ScrollableTabView` from `tabLabel` of your page. In defaultTabbar it is used only to pass a label, but we use it to pass there information about badges. Example ```tabLabel={{label: "Page #4", badge: 8, badgeColor: 'violet'}}```. Also you can pass any data you need as  it's used as `Map`|
+| `tabActiveToLeft`       | `boolean` | `false` | Place the active tab on the left |
 | `underlineColor`       | `string` | `"navy"` | Set a color for underline. You can use also `transparent` to hide underline |
 | `underlineHeight`       | `number` | `2` | Set a height for underline |
 | `underlineBottomPosition`       | `number` | `0` | Set a bottom for underline |
